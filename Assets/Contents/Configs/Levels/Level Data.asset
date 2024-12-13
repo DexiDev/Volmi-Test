@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83a2c5d53d474022b75f829778b4267d, type: 3}
+  m_Name: Level Data
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  <ID>k__BackingField: Level 1
+  <Name>k__BackingField: Level 1
+  <LoadingID>k__BackingField: Level 1
+  <NodesContract>k__BackingField:
+  - {fileID: 3032088259802038178, guid: b62ff034bdc4f4407a7523dc9bd652be, type: 3}
+  - {fileID: 901355944097347760, guid: 3d1938874621e4b0ca4a277fea28250e, type: 3}
+  <ItemRewards>k__BackingField:
+  - {fileID: 8509017884257900256, guid: c6df4fe05020a499097ac42e6dab7f12, type: 3}
+  - {fileID: 9103837003574010251, guid: 94b77d1932d094e7490dfb882c10b1a3, type: 3}
+  <ChanceReward>k__BackingField: 30
+  <MinMaxRewardSpacing>k__BackingField: {x: 2, y: 3}
+  <ObstaclesContract>k__BackingField:
+  - {fileID: -3272967729319620797, guid: aa8fa3c18c0f09f4cb51738e4f00994b, type: 3}
+  - {fileID: 3721510698372733116, guid: 4d9b30dbf88ab7040828422fbfe5b47c, type: 3}
+  - {fileID: -2920836107986191277, guid: 43c0a361696bd4d40a1ec1824af16773, type: 3}
+  - {fileID: 148642238980585845, guid: 0b5f249c4f0cede4293136b5597dcd4b, type: 3}
+  <MinMaxObstacleSpacing>k__BackingField: {x: 3, y: 10}
