@@ -1,0 +1,60 @@
+{
+    "name": "BaseInputActions",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "4e006192-9ebd-4f55-9e0b-f7f2ce7a3d85",
+            "actions": [
+                {
+                    "name": "Swipe",
+                    "type": "Value",
+                    "id": "060db4e6-f2c1-40e9-86ff-d644a064a0c2",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "0c7a790a-50b6-4808-9cad-18ec19cff9e9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "2afb2133-6365-4c05-839a-b3d295c67599",
+                    "path": "<Pointer>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Swipe",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d1918df3-baee-41f9-8441-5966df45d93f",
+                    "path": "<Pointer>/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Base",
+            "bindingGroup": "Base",
+            "devices": []
+        }
+    ]
+}

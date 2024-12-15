@@ -1,0 +1,248 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1726182683, guid: a4865f1ab4504ed8a368670db22f409c, type: 3}
+  m_Name: AOTGenerationConfig
+  m_EditorClassIdentifier: 
+  automateBeforeBuilds: 1
+  deleteDllAfterBuilds: 1
+  AutomateForAllAOTPlatforms: 1
+  automateForPlatforms: 090000001400000002000000050000000d000000
+  lastScan: 638618381549039644
+  supportSerializedTypes:
+  - TypeName: Game.Assets.AssetConfig, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Assets.Installers.AssetsManagerInstaller, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Audios.AudioConfig, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Audios.Installers.AudioManagerInstaller, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Boolean, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Customizations.CustomizationConfig, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Customizations.Installers.CustomizationManagerInstaller, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Customizations.CustomizationSlotData, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[Game.Customizations.CustomizationSlotData,
+      Assembly-CSharp],[System.Collections.Generic.HashSet`1[[UnityEngine.Object,
+      UnityEngine.CoreModule]], System.Core]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[Game.Customizations.CustomizationSlotData,
+      Assembly-CSharp],[Game.Customizations.ICustomizationField, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[Game.Customizations.ICustomizationOwner,
+      Assembly-CSharp],[System.Collections.Generic.Dictionary`2[[Game.Customizations.CustomizationSlotData,
+      Assembly-CSharp],[Game.Customizations.ICustomizationField, Assembly-CSharp]],
+      mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[Game.Inventory.IInventoryOwner,
+      Assembly-CSharp],[System.Collections.Generic.Dictionary`2[[Game.Items.ItemData,
+      Assembly-CSharp],[System.Int32, mscorlib]], mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[Game.Items.ItemData, Assembly-CSharp],[System.Int32,
+      mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[Game.Upgrades.UpgradeData,
+      Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Customizations.ICustomizationField, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[Game.Customizations.CustomizationSlotData,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: VContainer.Unity.IInstaller, VContainer
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Inventory.IInventoryOwner, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Input.Installers.InputManagerInstaller, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Inventory.InventoryConfig, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Inventory.Installers.InventoryManagerInstaller, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Loadings.IScene, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Items.ItemData, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Items.ItemsConfig, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Items.Installers.ItemsManagerInstaller, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Levels.LevelConfig, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Levels.Installers.LevelManagerInstaller, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[VContainer.Unity.IInstaller, VContainer]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Loadings.LoadingConfig, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Loadings.LoadingData, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Loadings.Installers.LoadingManagerInstaller, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Loadings.LoadingSettings, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Loadings.LoadingSettings[], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.SceneManagement.LoadSceneMode, UnityEngine.CoreModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Maps.MapsConfig, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Maps.Installers.MapsManagerInstaller, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.ObjectEqualityComparer`1[[Game.Customizations.CustomizationSlotData,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Predicates.Installers.PredicateManagerInstaller, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Progresses.ProgressConfig, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Progresses.Installers.ProgressManagerInstaller, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Quests.QuestConfig, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Quests.Installers.QuestManagerInstaller, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Rewards.Installers.RewardManagerInstaller, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Save.SaveConfig, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Save.Installers.SaveManagerInstaller, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Loadings.Scenes.SceneField, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Settings.SettingsConfig, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Settings.Installers.SettingsManagerInstaller, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Shop.Installers.ShopManagerInstaller, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.String, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.UI.Installers.UIManagerInstaller, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Unlocks.UnlockConfig, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Unlocks.Installers.UnlockManagerInstaller, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Upgrades.UpgradeConfig, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Upgrades.UpgradeData, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Upgrades.Installers.UpgradesManagerInstaller, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Vibrations.VibrationConfig, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Vibrations.Installers.VibrationManagerInstaller, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Settings.BaseSettings.FrameRate, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.HashSet`1[[UnityEngine.Object, UnityEngine.CoreModule]],
+      System.Core
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Settings.IBaseSettings, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Settings.IBaseSettings[], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Customizations.ICustomizationOwner, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Data.IDataField, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[Game.Customizations.ICustomizationOwner,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Int32, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[Game.Data.IDataField, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.Object, UnityEngine.CoreModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.ObjectEqualityComparer`1[[Game.Customizations.ICustomizationOwner,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Loadings.UI.UILoadingScreen, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
